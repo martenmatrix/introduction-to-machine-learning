@@ -1,0 +1,12 @@
+Aufgabe 1
+    k - Anzahl an Gruppen, in welche die Daten aufgeteilt werden
+
+     Das Problem entsteht, wenn innerhalb der Folds Ungleichgewichte bezüglich wichtiger Merkmale existieren.
+     Bei der LOOCV werden alle einzelne Elemente im Datenset jeweils einzeln getestet, wobei alle anderen Elemente als Trainingsdaten dienen. Kein Ungleichgewicht, da man alle Daten zum Training verwendet, allerdings daher auch sehr rechenaufwendig.
+     Bei der Stratified-Cross Validation werden die relevanten Merkmale gleichmäßig unter den k-Gruppen aufgeteilt. Die Herausforderung hierbei ist die Notwendigkeit einer sorgfältigen Voranalyse der Daten, um zu bestimmen, welche Features stratifiziert werden sollten.
+
+
+2)
+Bei einem zu hohen Exponenten kann es zum Overfitting kommen. Dadurch ist das Modell zu sehr an die Daten, inklusive Rauschen angepasst, wodurch weitere Vorhersagen fehlerhaft werden. Das bedeutet, dass das Rauschen der Daten tatsächlich in den Daten modelliert wird.
+Dies ist besonders Problematisch, da in Polynomen mit höherem Exponenten eine kleine Änderung viel bewirkt. Es kommt insgesamt dazu, dass das Modell sehr rechenintensiv und unvorhersehbar wird.
+
