@@ -1,0 +1,2 @@
+- [A Gentle Introduction to k-fold Cross-Validation](https://machinelearningmastery.com/k-fold-cross-validation/)
+- [Polynomial Regression](https://data36.com/polynomial-regression-python-scikit-learn/)
