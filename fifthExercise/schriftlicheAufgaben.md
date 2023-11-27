@@ -49,14 +49,14 @@ In diesem Beispiel werden die Min-Max-Skalierung und die 1-Nearest-Neighbor-Clas
 
 ## Trainingsdatenpunkte und Labels
 
-- \( x_1 = (-10,1) \), \( y_1 = 0 \)
-- \( x_2 = (10,5) \), \( y_2 = 1 \)
-- \( x_3 = (-20,6) \), \( y_3 = 1 \)
-- \( x_4 = (20,0) \), \( y_4 = 0 \)
+- $\( x_1 = (-10,1) \), \( y_1 = 0 \)$
+- $\( x_2 = (10,5) \), \( y_2 = 1 \)$
+- $\( x_3 = (-20,6) \), \( y_3 = 1 \)$
+- $\( x_4 = (20,0) \), \( y_4 = 0 \)$
 
 ## Testdatenpunkt und Label
 
-- Testpunkt \( p = (21,4) \), Label \( y_p = 1 \)
+- Testpunkt $\( p = (21,4) \), Label \( y_p = 1 \)$
 
 ## Min-Max-Skalierung
 
@@ -70,11 +70,11 @@ Die Min-Max-Skalierung wird auf die Trainings- und Testdaten angewendet, um die 
 
 ## Euklidische Distanzen nach der Skalierung
 
-1. \( \text{Distanz}(p_{\text{skaliert}}, x_{1, \text{skaliert}}) \approx 0.5417 \)
-2. \( \text{Distanz}(p_{\text{skaliert}}, x_{2, \text{skaliert}}) \approx 0.8594 \)
-3. \( \text{Distanz}(p_{\text{skaliert}}, x_{3, \text{skaliert}}) \approx 1.2925 \)
-4. \( \text{Distanz}(p_{\text{skaliert}}, x_{4, \text{skaliert}}) \approx 1.025 \)
+1. $\( \text{Distanz}(p_{\text{skaliert}}, x_{1, \text{skaliert}}) \approx 0.5417 \)$
+2. $\( \text{Distanz}(p_{\text{skaliert}}, x_{2, \text{skaliert}}) \approx 0.8594 \)$
+3. $\( \text{Distanz}(p_{\text{skaliert}}, x_{3, \text{skaliert}}) \approx 1.2925 \)$
+4. $\( \text{Distanz}(p_{\text{skaliert}}, x_{4, \text{skaliert}}) \approx 1.025 \)$
 
 ## 1-Nearest-Neighbor-Classification
 
-Der Testpunkt \( p \) wird dem Trainingspunkt \( x_2 \) zugeordnet, da \( x_2 \) die geringste euklidische Distanz aufweist. Das vorhergesagte Label für \( p \) ist daher \( \hat{y}_p = 1 \).
+Der Testpunkt $\( p \)$ wird dem Trainingspunkt $\( x_2 \)$ zugeordnet, da $\( x_2 \)4 die geringste euklidische Distanz aufweist. Das vorhergesagte Label für $\( p \)$ ist daher $\( \hat{y}_p = 1 \)$.
