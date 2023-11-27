@@ -62,11 +62,11 @@ In diesem Beispiel werden die Min-Max-Skalierung und die 1-Nearest-Neighbor-Clas
 
 Die Min-Max-Skalierung wird auf die Trainings- und Testdaten angewendet, um die Werte in den Bereich [0, 1] zu normalisieren.
 
-- \( x_{1, \text{skaliert}} = (0.25, 0.1667) \)
-- \( x_{2, \text{skaliert}} = (0.75, 0.8333) \)
-- \( x_{3, \text{skaliert}} = (0, 1) \)
-- \( x_{4, \text{skaliert}} = (1, 0) \)
-- \( p_{\text{skaliert}} = (1.025, 0.6667) \)
+- $\( x_{1, \text{skaliert}} = (0.25, 0.1667) \)$
+- $\( x_{2, \text{skaliert}} = (0.75, 0.8333) \)$
+- $\( x_{3, \text{skaliert}} = (0, 1) \)$
+- $\( x_{4, \text{skaliert}} = (1, 0) \)$
+- $\( p_{\text{skaliert}} = (1.025, 0.6667) \)$
 
 ## Euklidische Distanzen nach der Skalierung
 
